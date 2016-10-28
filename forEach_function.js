@@ -25,8 +25,8 @@ function greetPerson(name) {
   console.log("Hello, " + name + "!");
 }
 
-var greetings = names.map(function(a) {
-  return greetPerson(a);
+var greetings = names.map(function(name) {
+  return greetPerson(name);
 });
 
 
